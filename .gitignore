@@ -270,3 +270,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+
+# Custom template
+**/.DS_Store

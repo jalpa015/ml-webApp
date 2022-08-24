@@ -1,31 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
 body {
-	touch-action: none;
-	font-family: "Roboto";
+  /* touch-action: none; */
+  font-family: 'Roboto';
 }
-h1 {
-	margin: 50px;
-	font-size: 70px;
+
+#main-heading,
+#prediction-heading {
+	font-size: 4.5rem;
+	font-weight: 600;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	text-align: center;
 }
+
 #paint {
-	border:3px solid red;
-	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 }
-#predicted {
-	font-size: 60px;
-	margin-top: 60px;
-	text-align: center;
+
+#myCanvas {
+	border: 3px solid red;
+	max-width: 50rem;
+	align-self: center;
 }
-#number {
-	border: 3px solid black;
-	margin: auto;
-	margin-top: 30px;
-	text-align: center;
-	vertical-align: middle;
+
+#canvas-sub-heading{
+	align-self: center;
+	font-size: 2.0rem;
+	margin-top: 1rem;
 }
-#clear {
-	margin: auto;
-	margin-top: 70px;
-	padding: 30px;
-	text-align: center;
+
+#prediction {
+	display: flex;
+	flex-direction: column;
+	margin-top: 3rem;
+	border-top: 2px solid black;
 }
+
+#result-box{
+	align-self: center;
+	width: 100px;
+	height: 50px;
+
+	border: 2px solid black;
+	margin-bottom: 2rem;
+}
+
+button {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 10px 40px;
+
+  border-radius: 13px;
+} 
