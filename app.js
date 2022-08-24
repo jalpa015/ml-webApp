@@ -1,4 +1,3 @@
-// Requiring module
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -18,7 +17,5 @@ app.get('/', (req, res) => {
   res.render('main');
 });
 
-// Server setup
-app.listen(3000, () => {
-  console.log('The server started running on port 3000');
-});
+
+module.exports = app;
