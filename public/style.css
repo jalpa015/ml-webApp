@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  /* touch-action: none; */
-  font-family: 'Roboto';
+	/* touch-action: none; */
+	font-family: 'Roboto';
 }
 
 #main-heading,
@@ -35,7 +35,7 @@ body {
 	align-self: center;
 }
 
-#canvas-sub-heading{
+#canvas-sub-heading {
 	align-self: center;
 	font-size: 2.0rem;
 	margin-top: 1rem;
@@ -48,21 +48,21 @@ body {
 	border-top: 2px solid black;
 }
 
-#result-box{
+#number {
 	align-self: center;
 	width: 100px;
 	height: 50px;
-
 	border: 2px solid black;
 	margin-bottom: 2rem;
+	font-size: 40px;
+	text-align: center;
 }
 
 button {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 300;
-  margin: 0 auto;
-  padding: 10px 40px;
-
-  border-radius: 13px;
-} 
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 300;
+	margin: 0 auto;
+	padding: 10px 40px;
+	border-radius: 13px;
+}
