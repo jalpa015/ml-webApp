@@ -24,10 +24,6 @@ jobs:
     - name: npm install
       run: |
         npm install
-      
-    - name: npm test
-      run: |
-        npm test
     
     - name: Add remote origin
       run: |
