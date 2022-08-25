@@ -1,5 +1,8 @@
 ## Machine Learning predicitons in Web app
 
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=mnist-ml-web-app)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Working on approach to use Tensorflow.js library for real time predictions in an web app.
 
 MNIST is a popular dataset of images of handwritten digits [link](http://yann.lecun.com/exdb/mnist/)
@@ -28,3 +31,4 @@ To get started with the project follow the below metioned steps -
     * To edit the ML model you will need pip to install the Python packages. 
     * Once pip is installed in your computer, install the libraries.
     * Now the Jupyter Notebook can be edited.  
+
