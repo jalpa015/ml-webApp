@@ -24,13 +24,7 @@ jobs:
     - name: npm install
       run: |
         npm install
-    
-    # - name: Add remote origin
-    #   run: |
-    #     git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-    # - name: Deploy to Heroku
-    #   run: |
-    #     git push heroku HEAD:master -f
+        
     - name: Deploy to Heroku
       uses: actions/checkout@v2
       uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
