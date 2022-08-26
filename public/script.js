@@ -16,7 +16,7 @@ canvas.addEventListener(
 	false
 );
 
-context.lineWidth = 25;
+context.lineWidth = 15;
 context.lineJoin = "round";
 context.lineCap = "round";
 context.strokeStyle = "#0000FF";
